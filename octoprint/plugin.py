@@ -13,6 +13,9 @@ class Printer:
             "status": "OK"
         }
 
+# class TemplatePlugin:
+    # pass
+
 
 class EventHandlerPlugin:
     def __init__(self):

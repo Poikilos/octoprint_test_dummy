@@ -46,3 +46,5 @@ payload = None
 plugin.on_event(Events.PRINT_STARTED, payload)
 
 plugin.on_event(Events.CONNECTED, payload)
+defaults = plugin.get_settings_defaults()
+print("settings: {}".format(defaults))
